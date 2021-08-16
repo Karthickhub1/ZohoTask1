@@ -281,7 +281,7 @@ border: 1px solid black;
 
 
 
-    @media  screen and (max-width: 425px ) {
+    @media  screen and (max-width: 375px ) {
  
       .dropdown-menu{
         display: none;
