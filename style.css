@@ -1,0 +1,311 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.dropdown-menu{
+  float: right;
+  width: 15%;
+  border: 3px solid;
+  box-sizing: border-box;
+  margin: auto;
+ text-align: center;
+ background-color: transparent;
+display: none;
+
+}
+li{
+  list-style: none;
+  display:inline-block;
+  padding: 12px;
+  text-transform: capitalize;
+  
+}
+
+ol p{
+  padding: 10px;
+  text-transform: capitalize;
+}
+ol p:hover {
+color: white;
+transition: .4s;
+}
+ol button{
+  padding: 8px;
+  margin: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+ol button:hover{
+  background-color: transparent;
+}
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width:45px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border: black 2px solid;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 36px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+.menu-button{
+  float: right;
+  background-color: chocolate;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border: 2px solid;
+  border-radius: 15px;
+}
+.right-menu{
+  float: right;
+  width: 100%;
+  }
+  .dropdown-menu a{
+    text-decoration: none;
+    color: black;
+  }
+.dropdown-menu a:hover{
+  color: #fff;
+  transition: .4s;
+}
+.right-menu:hover .dropdown-menu{
+  display: block;
+  
+  transition: .4s;
+}
+.right-menu:hover .menu-button{
+  background-color:brown;
+}
+
+
+
+
+.container{ 
+background-color: transparent;
+display: flex;
+padding: 1rem;
+width: 67%;
+margin-left: 10%;
+margin-top: 10%;
+position: fixed;
+align-items: center;
+justify-content: space-evenly;
+height: 32%;
+flex-wrap: wrap;
+border-radius: 10px;
+box-shadow: 4px 12px 20px  black;
+border: 1px solid black;
+
+}
+.container:hover{
+  box-shadow: 4px 15px 30px  black;
+  transition: .4s;
+}
+.container1:hover{
+  box-shadow: 4px 20px 30px  black;
+  transition: .4s;
+}
+
+.container h3{
+width: 100%;
+background-color: transparent;
+text-transform: capitalize;
+
+}
+.container a{
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  text-transform:capitalize;
+}
+.container a:hover{
+  color: white;
+  transition: .3s;
+}
+.box1{
+  text-align: center;
+  background-color: transparent;
+}
+.box1 img{
+  border-radius: 10px;
+}
+.box1 img:hover{
+  border: 2px solid black;
+}.box2 img:hover{
+  border: 2px solid black;
+}.box3 img:hover{
+  border: 2px solid black;
+}.box4 img:hover{
+  border: 2px solid black;
+}.box4 img:hover{
+  border: 2px solid black;
+}.box5 img:hover{
+  border: 2px solid black;
+}.box6 img:hover{
+  border: 2px solid black;
+}
+.box2 img{
+
+  border-radius: 10px;
+}
+.box3 img{
+  border-radius: 10px;
+}
+.box4 img{
+  border-radius: 10px;
+}
+.box5 img{
+  border-radius: 10px;
+  
+}
+.box6 img{
+  border-radius: 10px;
+}
+.box2{
+  text-align: center;
+  background-color: transparent;
+}
+.box3{
+  text-align: center;
+  background-color: transparent;
+}
+.box4{
+  text-align: center;
+  background-color: transparent;
+}
+.box5{
+  text-align: center;
+  background-color: transparent;
+  
+}
+.box6{
+  text-align: center;
+  background-color: transparent;
+}
+
+.container1{ 
+  background-color: transparent;
+display: flex;
+padding:1rem;
+width: 67%;
+margin-left: 10%;
+margin-top: 27%;
+position: fixed;
+align-items: center;
+justify-content: space-evenly;
+height: 31%;
+flex-wrap: wrap;
+border-radius: 10px;
+box-shadow: 4px 15px 20px  black;
+border: 1px solid black;
+  }
+  .container1 h3{
+    width: 100%;
+    background-color: transparent;
+    text-transform: capitalize;
+    }
+    .container1 a{
+      background-color: transparent;
+      text-decoration: none;
+      color: black;
+      text-transform:capitalize;
+    }
+    .container1 a:hover{
+      color: white;
+      transition: .3s;
+    }
+
+
+
+    @media  screen and (max-width: 425px ) {
+ 
+      .dropdown-menu{
+        display: none;
+        width: 100%;
+        
+      }
+      .right-menu{
+        display: block;
+        
+        width: 100%;
+      }
+      .container{
+       margin-top: 76%;
+        overflow: visible;
+        height: 80%;
+        display: block;
+      }
+      .container1{
+        margin-top: 230%;
+        display: block;
+        
+      }
+    }
+
+  
+ 
+  
